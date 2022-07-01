@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: internetarchive/cicd@v1
         with:
-          BASE_DOMAIN: '127.0.0.1:4646'
+          BASE_DOMAIN: 'code.archive.org'
           NOMAD_ADDR: 'http://127.0.0.1:4646'
           NOMAD_TOKEN: ${{ secrets.NOMAD_TOKEN }}
           REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
